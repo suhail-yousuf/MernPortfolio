@@ -1,0 +1,37 @@
+.home-container{
+    height: 300px;
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+.home-content h2{
+    padding: 10px;
+    padding-top: 80px;
+}
+.home-content h1{
+    padding: 10px;
+    color: bisque; 
+}
+.home-buttons{
+    margin-top: 20px;
+}
+.home-buttons .btn-hire{
+    background-color:#3b8ff3;
+    color: white;
+    width: 160px;
+}
+.home-buttons .btn-hire:hover{
+    background-color:white;
+    color:#3b8ff3;
+    width: 200px;
+    transition: 1s;
+}
+.home-buttons .btn-cv{
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+}
+.home-buttons .btn-cv:hover{
+    opacity: 100%;
+    transition: 1s;
+}
