@@ -35,3 +35,21 @@
     opacity: 100%;
     transition: 1s;
 }
+
+
+
+/* ##################### */
+@media (max-width: 600px ){
+    .home-container{
+        padding: 0px;
+        margin: 0px;
+        margin-top:50px ;
+    }
+    .home-container h2{
+        font-size: 24px ;
+        }
+    .home-container h1{
+        font-size: 24px;
+    }
+
+    }

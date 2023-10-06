@@ -5,10 +5,12 @@ import Project from "./Pages/Project/Project";
 import Tech from "./Pages/Tech/Tech";
 import Workexp from "./Pages/Workexp/Workexp";
 import Layout from "./component/Layout/Layout";
+import Mobilenav from "./component/MobileNav/Mobilenav";
 
 function App() {
   return (
     <>
+        <Mobilenav/>
         <Layout/>
       <div className="container">
       <About/>
