@@ -4,7 +4,7 @@ import { Techlist } from '../../Utils/Techlist'
 function Tech() {
   return (
     <>
-    <div className="container tech">
+    <div className="container tech" id="4">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Professional Skills</h2>
     <hr/>
     <p className="pb-3 text-center"> 👉 including Programming Language,Framework,Database,Fontend and Backend tools and APIs</p>

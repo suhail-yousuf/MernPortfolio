@@ -7,7 +7,7 @@ import "./Project.css"
 const Project = () => {
   return (
     <>
-    <div className="continer project">
+    <div className="continer project" id="5">
     <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">My Projects</h2>
     <hr/>
     <p className="pb-3 text-center"> 👉 Hire are my top three recent projects</p>

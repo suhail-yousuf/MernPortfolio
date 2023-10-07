@@ -5,7 +5,7 @@ import Resume from "../../Assist/Docs/1.pdf";
 const Home = () => {
   return (
     <>
-    <div className="container-fluid  home-container">
+    <div className="container-fluid  home-container" id="1">
      <div className="container home-content">
       <h2> Suhail Yousuf</h2>
       <h1>

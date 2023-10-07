@@ -4,7 +4,7 @@ import image from "../../Assist/Image/1.jpeg";
 const About = () => {
   return (
    <>
-   <div className="about">
+   <div className="about" id="2" >
     <div className="row">
         <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
             <img src={image} alt="Picture" />

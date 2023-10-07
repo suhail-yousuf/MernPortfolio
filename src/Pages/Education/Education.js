@@ -6,7 +6,7 @@ import "./Education.css"
 const Education = () => {
   return (
    <>
-    <div className="education">
+    <div className="education" id="3">
     <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Educational Background</h2>
     <hr/>
    
