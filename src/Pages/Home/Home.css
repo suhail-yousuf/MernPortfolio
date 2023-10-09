@@ -20,12 +20,7 @@
     color: white;
     width: 160px;
 }
-.home-buttons .btn-hire:hover{
-    background-color:white;
-    color:#3b8ff3;
-    width: 200px;
-    transition: 1s;
-}
+
 .home-buttons .btn-cv{
     background-color: #f29f67;
     color: white;
