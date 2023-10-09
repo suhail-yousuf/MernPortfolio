@@ -33,5 +33,17 @@
   
     transition: 1s;
   }
+
+  /*#############################*/
+  @media ( max-width:600px){
+    .tech{
+      margin: 0;
+      padding: 0;
+      margin-top: 45px;
+    }
+    .tech hr{
+      width: 280px;
+    }
+  }
   
  

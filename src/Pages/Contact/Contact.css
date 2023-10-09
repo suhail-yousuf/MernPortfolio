@@ -76,3 +76,21 @@ input:focus,textarea:focus{
     background-color: #359f8e63;
     color: white;
 }
+
+
+/* ##################################### */
+@media ( max-width:600px) {
+    .contact{
+        margin: 0;
+        padding: 0;
+        margin-top: 45px;
+    }
+    .contact .card2{
+        margin: 0;
+    }
+    .contact .card2 h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

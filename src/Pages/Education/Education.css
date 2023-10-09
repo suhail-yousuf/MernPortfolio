@@ -21,3 +21,19 @@
   .education .vertical-timeline-element-subtitle{
     color: #1e1e2c;
   }
+
+  /*##########################################*/
+  @media ( max-width:600px){
+    .education{
+      margin: 0;
+      padding: 0;
+      margin-top: 30px;
+    }
+    .education h2{
+      padding-top: 20px;
+    }
+    .education hr{
+      width: 280px;
+      margin-bottom: 10px;
+    }
+  }

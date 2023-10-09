@@ -22,7 +22,7 @@ function App() {
       <Contact/>
       </div>
       <div className="footer mb-3 ms-3">
-        <h4 className="text-center">Made With 😍 SM  </h4>
+        <h4 className="text-center">Made by 😍 SM  </h4>
     </div>
     <ScrollToTop 
     smooth 
