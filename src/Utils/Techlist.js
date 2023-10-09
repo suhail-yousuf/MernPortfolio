@@ -15,10 +15,7 @@ import {
   SiGithub,
   SiWordpress,
   SiFirebase,
-  SiDocker,
   SiExpress,
-  SiNginx,
-  SiAngular,
 } from "react-icons/si";
 export const Techlist = [
   {
@@ -96,11 +93,7 @@ export const Techlist = [
     name: "TypeScript",
     icon: SiTypescript ,
   },
-  {
-    _id: 16,
-    name: "Angular",
-    icon: SiAngular ,
-  },
+ 
   {
     _id: 17,
     name: "Nextjs",
@@ -126,14 +119,6 @@ export const Techlist = [
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
+
+
 ];

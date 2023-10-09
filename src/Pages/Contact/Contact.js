@@ -20,9 +20,9 @@ const Contact = () => {
                     <div className="row">
                         <div className="row">
                         <h6>Contacts With
-                          <BsLinkedin color="blue" size={30 } className="ms-2"/>
-                          <BsGithub color="black" size={30 } className="ms-2"/>
-                          <BsFacebook color="blue" size={30 } className="ms-2"/>
+                         <a   href="https://linkedin.com/in/suhail-yousuf"> <BsLinkedin color="blue" size={30 } className="ms-2"/></a>
+                         <a    href="https://github.com/suhail-yousuf"> <BsGithub color="black" size={30 } className="ms-2"/></a> 
+                         <a     href="https://www.facebook.com/sohail.khashchanmasani"><BsFacebook color="blue" size={30 } className="ms-2"/></a> 
                         </h6>
                         </div>   
                     <div className="row xp-3 mb-4">
