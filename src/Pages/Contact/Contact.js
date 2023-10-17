@@ -1,8 +1,52 @@
-import React from 'react'
+import React, { useState ,useEffect} from 'react'
 import "./Contact.css"
 import {BsLinkedin,BsGithub,BsFacebook} from "react-icons/bs"
 import G from "../../Assist/Image/6.png"
+import emailjs from "@emailjs/browser"
+//Servus id         service_hud37tw
+// private key     tmTzaXUFXe2g8M2NFx7kR
+// Public key      TjYXCoIX67Tnvi2hz
+// template email id    template_hv6novj
 const Contact = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
+  const [loading, setLoading] = useState("");
+
+ useEffect(() => emailjs.init("TjYXCoIX67Tnvi2hz"), []);
+  // Add these
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const serviceId = "service_hud37tw";
+    const templateId = "template_hv6novj";
+
+   const emailPerams = {
+    from_name: name,
+    to_email:  email,
+    message:       msg,
+   }
+
+
+    try {
+      setLoading(true);
+     const response = await emailjs.send(serviceId, templateId,emailPerams);
+     if(response.status === 200){
+      console.log("email succefully send ")
+
+     }
+     else{
+      console.log("email sendding failed")
+     }
+     // alert("email successfully sent check inbox");
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+
   return (
     <>
     <div className=" contact" id="7">
@@ -40,7 +84,7 @@ const Contact = () => {
                        <textarea type="text" name="msg" placeholder="Enter Your Massage"  className="md-3"  />
                     </div>
                     <div className="row px-3">
-                      <button className="button"  type="submit">
+                      <button onClick ={handleSubmit}      className="button"  type="submit">
                         Submit
                       </button>
                     </div>
