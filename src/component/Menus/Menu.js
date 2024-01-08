@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import A from "../../Assist/Image/SM.png";
+import A from "../../Assist/Image/SM.jpg";
 import { Link} from 'react-scroll';
 import {FcHome ,FcAbout ,FcPortraitMode ,FcBiotech,FcReadingEbook,FcVideoProjector,FcContacts} from "react-icons/fc"
 const Menu = ({toggle}) => {
@@ -8,7 +8,7 @@ const Menu = ({toggle}) => {
     <>
     {toggle ? (
         <>
-        <div className="navbar-profile-pic">
+      <div className="navbar-profile-pic">
         < img src={A} alt="Profile pic" />
     </div>
     <div className="nav-items">
