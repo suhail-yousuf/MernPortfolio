@@ -39,7 +39,7 @@ backend.
     date="2023 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#1e1e2c' }}
     icon={<MdOutlineWorkHistory />}>
-    <h3 className="vertical-timeline-element-title">Junior Developer</h3>
+    <h3 className="vertical-timeline-element-title">Mern Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Rinor,Skardu</h4>
     <p>
     I have been actively engaged in the development of an ERP (Enterprise Resource Planning)
